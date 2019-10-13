@@ -4,9 +4,10 @@ namespace Open_Lab_01._3
 {
     class Program
     {
-        static void Main(string[] args)
+        public static int Addition(int X)
         {
-            Console.WriteLine("Hello World!");
+            int result = X + 1;
+            return result;
         }
     }
 }
